@@ -49,7 +49,7 @@ where:
 ## **Results: CIP Arbitrage Spreads**
 The following figure presents the **time-series of arbitrage spreads** for the selected currencies:
 
-![Covered_Interest_Parity](data/spread_plot_recent.png)
+![Covered_Interest_Parity](tables/spread_plot_recent.png)
 
 ### **Description of the Plot**
 - The y-axis represents the **CIP deviation** (arbitrage spread) in **basis points (bps)**.
