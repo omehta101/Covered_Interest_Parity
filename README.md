@@ -49,12 +49,10 @@ where:
 ## **Results: CIP Arbitrage Spreads**
 The following figure presents the arbitrage spreads for the selected currencies:
 
-<p align="center">
-    <strong>Time Series of Arbitrage Spreads</strong>
-</p>
+<h2 align="center">Time Series of Arbitrage Spreads</h2>
 
 <p align="center">
-    <img src="tables/spread_plot_recent.png" width="800">
+    <img src="tables/spread_plot_recent.png" width="1000" height="600">
 </p>
 
 ### **Description of the Plot**
