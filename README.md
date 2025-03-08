@@ -44,6 +44,21 @@ where:
 
 ---
 
+---
+
+## **Results: CIP Arbitrage Spreads**
+The following figure presents the **time-series of arbitrage spreads** for the selected currencies:
+
+![Covered_Interest_Parity](data/spread_plot_recent.png)
+
+### **Description of the Plot**
+- The y-axis represents the **CIP deviation** (arbitrage spread) in **basis points (bps)**.
+- The x-axis represents the **timeline** (2010–2020).
+- A **positive CIP deviation** indicates an arbitrage opportunity where synthetic funding is cheaper than direct USD funding.
+- A **negative CIP deviation** suggests that direct USD funding is cheaper than synthetic funding.
+- Large spikes (e.g., during the 2008–09 financial crisis and COVID-19 period) indicate periods of **market stress and liquidity constraints**.
+
+
 ## **Data Sources**
 - **Spot exchange rates** (USD/CCY pairs)
 - **Forward points** (converted to forward rates)
