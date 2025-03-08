@@ -52,7 +52,7 @@ The following figure presents the arbitrage spreads for the selected currencies:
 <h2 align="center">Time Series of Arbitrage Spreads</h2>
 
 <p align="center">
-    <img src="tables/spread_plot_recent.png" width="1150" height="500">
+    <img src="tables/spread_plot_recent.png" width="1150" height="600">
 </p>
 
 ### **Description of the Plot**
