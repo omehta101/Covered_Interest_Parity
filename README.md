@@ -4,11 +4,10 @@ Covered Interest Parity (CIP) states that the interest rate differential between
 
 The CIP deviation is defined as:
 
-$$
-\text{CIP}^c_{t,\tau} \equiv y^{\$}_{t,\tau} - y^c_{t,\tau} + \rho^c_{t,\tau}
-$$
+$\text{CIP}^c_{t,\tau} \equiv y^{\$}_{t,\tau} - y^c_{t,\tau} + \rho^c_{t,\tau}$
 
 where:
+
 - $y^{\$}_{t,\tau}$ is the continuously compounded risk-free rate in USD  
 - $y^c_{t,\tau}$ is the foreign currency risk-free rate  
 - $\rho^c_{t,\tau}$ is the forward premium, computed as
