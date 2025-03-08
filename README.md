@@ -29,8 +29,8 @@ F_t = S_t + \frac{\text{FP}_t}{\begin{cases}
 $$
 
 where:  
-- \( F_t \) = 3-month forward rate  
-- \( S_t \) = Spot exchange rate  
-- \( FP_t \) = Forward points  
+- \( $F_t$ \) = 3-month forward rate  
+- \( $S_t$ \) = Spot exchange rate  
+- \( $FP_t$ \) = Forward points  
 
 ---
