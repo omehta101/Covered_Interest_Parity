@@ -46,7 +46,7 @@ where:
 
 ---
 
-## **Results: CIP Arbitrage Spreads**
+## **Results**
 The following figure presents the arbitrage spreads for the selected currencies:
 
 <h2 align="center">Time Series of Arbitrage Spreads</h2>
