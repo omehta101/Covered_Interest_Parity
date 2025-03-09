@@ -28,7 +28,7 @@ $$
 where:
 - **$\large \tau$** = tenor.
 - **$\large y_{t, \tau, c}$** is the continuously compounded riskless rate between $t$ and $t + \tau$.
-- **$\large y_{t, \tau, c} - \rho_{t, \tau, c}$** is the synthetic dollar risk-free rate.
+- **$\large y_{t, \tau, c} - \rho_{t, \tau, c}$** is the synthetic risk-free rate.
 - The forward premium is the annualized difference between the log $\tau$-period forward $f_{t, \tau, c}$ and spot exchange rate $s_{t, c}$, both expressed in units of foreign currency per US dollar:
 
 $$
