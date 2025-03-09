@@ -15,6 +15,29 @@ The currencies analyzed include:
 
 ---
 
+## **Covered Interest Parity Formula**
+Covered Interest Parity (CIP) states that in a frictionless market, the interest rate differential between two currencies should equal the forward premium.
+
+The deviation from CIP for currency `c` against USD at time `t` is calculated as:
+
+$$
+\huge
+CIP_{t, \tau, c} = y_{t, \tau, \$} - (y_{t, \tau, c} - \rho_{t, \tau, c})
+$$
+
+where:
+- **$\large \tau$** = tenor.
+- **$\large y_{t, \tau, c}$** is the continuously compounded riskless rate between $t$ and $t + \tau$.
+- **$\large y_{t, \tau, c} - \rho_{t, \tau, c}$** is the synthetic dollar risk-free rate.
+- The forward premium is the annualized difference between the log $\tau$-period forward $f_{t, \tau, c}$ and spot exchange rate $s_{t, c}$, both expressed in units of foreign currency per US dollar:
+
+$$
+\huge
+\rho_{t, \tau, c} = \frac{1}{\tau} (ln(f_{t, \tau, c}) - ln(s_{t, c}))
+$$
+
+---
+
 ### **Data Sources & Processing**
 The dataset consists of:
 - **Overnight Indexed Swap (OIS) rates**  
@@ -22,6 +45,7 @@ The dataset consists of:
 - **Forward points**, which were converted into 3-month forward rates using standard market conventions:
 
 $$
+\huge
 F_t = S_t + \frac{\text{FP}_t}{\begin{cases} 
     10,000, & \text{for most currency pairs (EUR, GBP, AUD, etc.)} \\
     100, & \text{for JPY}
@@ -29,9 +53,9 @@ F_t = S_t + \frac{\text{FP}_t}{\begin{cases}
 $$
 
 where:  
-- \( $F_t$ \) = 3-month forward rate  
-- \( $S_t$ \) = Spot exchange rate  
-- \( $FP_t$ \) = Forward points  
+- **$\large F_t$** = 3-month forward rate  
+- **$\large S_t$** = Spot exchange rate  
+- **$\large FP_t$** = Forward points  
 
 ---
 
